@@ -23,33 +23,25 @@ function init() {
             },
             {
                 type: "input",
-                message: "Create a description",
+                message: "Create a description:",
                 name: "description",
             },
-
-
-
-            //questionable
             {
                 type: "input",
-                message: "Usage",
+                message: "Usage:",
                 name: "usage",
             },
-
-            //questionable
             {
                 type: "list",
                 message: "What is the name of the license you used?",
                 name: "license",
                 choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
             },
-            //questionable
             {
                 type: "input",
-                message: "Contributions?",
+                message: "Any contributors?",
                 name: "contributing",
             },
-            //questionable
             {
                 type: "input",
                 message: "Did you run a test?",
@@ -62,10 +54,9 @@ function init() {
                 name: "install",
                 default: "npm i"
             },
-            //questionable
             {
                 type: "input",
-                message: "Enter your GitHub Username",
+                message: "Enter your GitHub Username:",
                 name: "question1",
             },
             {
@@ -73,8 +64,6 @@ function init() {
                 message: "Enter your email address",
                 name: "email",
             },
-            //questionable
-
         ])
         .then(answers => {
             // Use user feedback for... whatever!!
@@ -82,17 +71,7 @@ function init() {
             answers.license = encodeURI(answers.license)
             writeToFile(`${answers.title}.md`, answers)
         })
-        // .catch(error => {
-        //     if (error.isTtyError) {
-        //         // Prompt couldn't be rendered in the current environment
-        //         console.log("Error!")
-        //     } else {
-        //         // Something else when wrong
-        //         console.log("Re-check your message")
-        //     }
-        // });
-
-
+        
 }
 
 // function call to initialize program

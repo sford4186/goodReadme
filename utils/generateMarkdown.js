@@ -29,7 +29,7 @@ Is this project accepting contributions:
 ${data.contributing}  
   
 ## Questions  
-If you hav questions about the repo email me at ${data.email}. You can see more of my work on [github.](https://www.github.com/${data.question1})
+If you have questions about the repo email me at ${data.email}. You can see more of my work on [github.](https://www.github.com/${data.question1})
 
 
 
