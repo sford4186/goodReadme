@@ -6,6 +6,7 @@ This is a command-line application used to create a clean and professional READM
 ## Screenshot of Application
 ![Screenshot of deployed site][README Creation Video](https://youtu.be/PQAx1SH9JwQ)  
 
-## Deployed site
+## Link to GitHub
 
-[goodReadme](https://sford4186.github.io/Day-Planner/)
+[goodReadme](https://github.com/sford4186/goodReadme)  
+
