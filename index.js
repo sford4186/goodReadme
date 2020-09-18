@@ -61,7 +61,7 @@ function init() {
             },
             {
                 type: "input",
-                message: "Enter your email address",
+                message: "Enter your email address:",
                 name: "email",
             },
         ])
